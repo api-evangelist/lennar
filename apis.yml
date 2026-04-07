@@ -1,7 +1,11 @@
 aid: lennar
-url: https://raw.githubusercontent.com/api-evangelist/lennar/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/lennar/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.lennar.com
+description: >-
+  Everything’s included by Lennar, the leading homebuilder of new homes for sale in
+  the nation’s most desirable real estate markets.
