@@ -7,7 +7,7 @@ description: >-
   partners discover and consume Lennar Corporation APIs. Public OpenAPI
   artifacts have not been observed; access generally requires sign-in and
   partner approval.
-type: Contract
+kind: contract
 image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
 access: Partner
 tags:
