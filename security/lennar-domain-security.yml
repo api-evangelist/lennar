@@ -1,0 +1,33 @@
+generated: '2026-07-11'
+method: probed
+source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
+hosts:
+- host: www.lennar.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Sep 10 07:31:13 2026 GMT
+  hsts: false
+- host: azu-lndscapmu01e.portal.azure-api.net
+  https: true
+  tls_cert_error: '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch,
+    certificate is not valid for ''azu-lndscap'
+  hsts: null
+- host: singlefamily.fanniemae.com
+  https: true
+  tls_version: TLSv1.3
+  cert_expires: Feb 13 23:59:59 2027 GMT
+  hsts: true
+  hsts_max_age: 15552000
+domains:
+- domain: lennar.com
+  dnssec: false
+  caa: []
+  spf: true
+  dmarc: true
+  dmarc_policy: reject
+- domain: azure-api.net
+  dnssec: false
+  caa:
+  - 0 contactemail "caarecordaware@microsoft.com"
+  spf: false
+  dmarc: false

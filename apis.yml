@@ -49,6 +49,8 @@ apis:
       - url: https://singlefamily.fanniemae.com/applications-programming-interfaces-apis/lennar-mortgage-llc
         type: Documentation
 common:
+  - type: DomainSecurity
+    url: security/lennar-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/lennar
   - url: https://www.lennar.com
