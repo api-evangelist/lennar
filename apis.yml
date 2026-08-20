@@ -24,6 +24,11 @@ image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/lennar.png
 access: Partner
 tags:
   - Homebuilder
+  - Real-Estate
+  - Fortune 500
+  - Mortgage
+tags_raw:
+  - Homebuilder
   - Real Estate
   - Fortune 500
   - Mortgage
