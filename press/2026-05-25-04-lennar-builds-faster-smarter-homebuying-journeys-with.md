@@ -1,7 +1,9 @@
 ---
 title: Lennar builds faster, smarter homebuying journeys with ...
 url: https://www.salesforce.com/customer-stories/lennar/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Lennar" press release artificial intelligence'
 position: 4
 source: serpapi-google

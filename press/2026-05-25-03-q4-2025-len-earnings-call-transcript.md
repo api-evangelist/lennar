@@ -1,7 +1,9 @@
 ---
 title: Q4-2025 LEN Earnings Call Transcript
 url: https://investors.lennar.com/~/media/Files/L/Lennar-IR-V3/reports-and-presentations/len-q4-25-earnings-call-transcript.pdf
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Lennar" press release artificial intelligence'
 position: 3
 source: serpapi-google

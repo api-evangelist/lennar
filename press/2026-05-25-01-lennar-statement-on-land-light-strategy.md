@@ -1,7 +1,9 @@
 ---
 title: 'Lennar: Statement on Land-Light Strategy'
 url: https://www.prnewswire.com/news-releases/lennar-statement-on-land-light-strategy-302728846.html
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"Lennar" press release artificial intelligence'
 position: 1
 source: serpapi-google
