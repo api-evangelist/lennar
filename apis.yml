@@ -78,6 +78,12 @@ apis:
       - url: https://singlefamily.fanniemae.com/applications-programming-interfaces-apis/lennar-mortgage-llc
         type: Documentation
 common:
+  - type: Plans
+    url: plans/lennar-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/lennar-rate-limits.yml
+  - type: FinOps
+    url: finops/lennar-finops.yml
   - type: DomainSecurity
     url: security/lennar-domain-security.yml
   - type: LinkedIn
