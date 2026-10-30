@@ -1,4 +1,4 @@
-# Lennar (lennar)
+# Lennar
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,56 +66,101 @@
 
 Lennar Corporation is a Fortune 500 company and one of the leading homebuilders of new homes for sale in the United States. Lennar operates an internal Azure-hosted API Management developer portal where Lennar developers and partners discover and consume Lennar Corporation APIs. Public OpenAPI artifacts have not been observed; access generally requires sign-in and partner approval.
 
-**APIs.json:** [apis.yml](apis.yml)
+**Areas:** Homebuilder · Real Estate · Fortune 500 · Mortgage
 
-## Scope
+## Lennar on APIs.io
 
-- **Type:** Contract
-- **Access:** Partner
+Everything profiled for Lennar is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/lennar/](https://apis.io/providers/lennar/)** — or go straight to one of the APIs or properties below.
 
-## Tags
+### APIs (2)
 
-- Homebuilder
-- Real Estate
-- Fortune 500
-- Mortgage
+- [Lennar Corporation Developer Portal](https://apis.io/apis/lennar/lennar-corporation-developer-portal/) — Azure API Management developer portal for Lennar Corporation. Allows developers to discover Lennar APIs, sign up for an API key, read the auto-generated…
+- [Lennar Mortgage Fannie Mae Integration](https://apis.io/apis/lennar/lennar-mortgage-fannie-mae/) — Lennar Mortgage, LLC is listed as a Fannie Mae technology integration partner using Fannie Mae's lending APIs. The technical contract is owned by Fannie…
 
-## Timestamps
+### Published properties
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-04-28
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-## APIs
+#### Security (1)
 
-### Lennar Corporation Developer Portal
+Authentication, trust centre, and vulnerability disclosure.
 
-Azure API Management developer portal for Lennar Corporation. Allows developers to discover Lennar APIs, sign up for an API key, read the auto-generated reference, and exercise endpoints from the API console. No public OpenAPI spec is exposed without authentication.
+- [Lennar Domain Security](https://apis.io/security/lennar/lennar-domain-security/)
 
-- **Developer Portal:** https://azu-lndscapmu01e.portal.azure-api.net/
+#### Plans and pricing (1)
 
-#### Tags
+Published plans, tiers and prices.
 
-- Developer Portal, Azure API Management
+- [Lennar Plans Pricing](https://apis.io/plans/lennar/lennar-plans-pricing/)
 
-### Lennar Mortgage Fannie Mae Integration
+#### Rate limits (1)
 
-Lennar Mortgage, LLC is listed as a Fannie Mae technology integration partner using Fannie Mae's lending APIs. The technical contract is owned by Fannie Mae; Lennar Mortgage is the consumer.
+Published request limits.
 
-- **Documentation:** https://singlefamily.fanniemae.com/applications-programming-interfaces-apis/lennar-mortgage-llc
+- [Lennar Rate Limits](https://apis.io/rate-limits/lennar/lennar-rate-limits/)
 
-#### Tags
+#### FinOps (1)
 
-- Mortgage, Lending, Partner Integration
+What the API costs to run, by operation.
 
-## Common Properties
+- [Lennar Finops](https://apis.io/finops/lennar/lennar-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.lennar.com)
-- [DeveloperPortal](https://azu-lndscapmu01e.portal.azure-api.net/)
-- [InvestorRelations](https://investor-marketplace.lennar.com/)
-- [PrivacyPolicy](https://www.lennar.com/privacypolicy)
-- [BusinessInquiries](https://www.lennar.com/contact/business-inquiry)
+- [Privacy policy](https://www.lennar.com/privacypolicy)
 
-## Maintainers
+## API Evangelist rating
 
-- **FN:** Kin Lane
-- **Email:** kin@apievangelist.com
+**Kin Score 11.7** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 48.2 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 5.3 |
+| Developer ergonomics | 19.0 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 9.8** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/lennar/](https://apis.io/providers/lennar/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Lennar: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/lennar/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
